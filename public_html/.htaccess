@@ -1,0 +1,4 @@
+# Desabilitar Phar, mysqli e mysqlnd que estão sendo carregados repetidamente
+php_flag phar off
+php_flag mysqli off
+php_flag mysqlnd off
